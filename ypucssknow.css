@@ -1,5 +1,5 @@
 <style>
-ul { /* 取消ul預設的內縮及樣式 */
+ul { 
         margin: 0;
         padding: 0;
         list-style: none;
@@ -38,11 +38,11 @@ ul { /* 取消ul預設的內縮及樣式 */
         background: #4274d7;
         font-size:16px;
     }
-    ul.drop-down-menu a:hover { /* 滑鼠滑入按鈕變色*/
+    ul.drop-down-menu a:hover { 
         background-color: #ef5c28;
         color: #fff;
     }
-    ul.drop-down-menu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
+    ul.drop-down-menu li:hover > a { 
         background-color: #E93658;
         color: #fff;
     }
@@ -63,16 +63,16 @@ ul.drop-down-menu ul {
         border-bottom: none;
     }
 
-    ul.drop-down-menu ul ul { /*第三層以後的選單出現位置與第二層不同*/
+    ul.drop-down-menu ul ul { 
         z-index: 999;
         top: 10px;
         left: 100%;
     }
-  ul.drop-down-menu ul { /*隱藏次選單*/
+  ul.drop-down-menu ul { 
         display: none;
     }
 
-    ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
+    ul.drop-down-menu li:hover > ul { 
         display: block;
     }
 </style>
