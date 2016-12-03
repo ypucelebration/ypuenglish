@@ -1,4 +1,4 @@
-<style>
+
 ul { 
         margin: 0;
         padding: 0;
@@ -75,4 +75,4 @@ ul.drop-down-menu ul {
     ul.drop-down-menu li:hover > ul { 
         display: block;
     }
-</style>
+
