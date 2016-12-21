@@ -127,10 +127,12 @@ ul#menu li a
   
 ul#menu li.current a, ul#menu li:hover a
 { color: #FFF;
-  text-decoration: underline;}
+  /*text-decoration: underline;*/
+  text-decoration: none;
+}
 
 #site_content
-{ width: 940px;
+{ width: 1200px;
   overflow: hidden;
   margin: 0 auto;} 
 
@@ -180,7 +182,7 @@ ul#menu li.current a, ul#menu li:hover a
   float: left;}
   
 #content_bottom
- { width: 940px;
+ { width: 1200px; /*原本width: 940px;*/
   height: 160px;
   float: left;
   text-align: center; } 
@@ -301,7 +303,7 @@ ul#menu li.current a, ul#menu li:hover a
   
   
 #banner_image {
-	width: 960px;
+	width: 1200px;
 	float: left;
 	margin: 20px 0 20px 0;
 	padding: 0 0 0 0;
