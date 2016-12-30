@@ -76,9 +76,9 @@ ol li
 #header
 {     height: 150px;
     background: #55ffff;
-    background: -moz-linear-gradient(#90B9E2, #4B75AF);
-    background: -o-linear-gradient(#90B9E2, #4B75AF);
-    background: -webkit-linear-gradient(#8dffdf, #27c4ce);}
+    background: -moz-linear-gradient(#55ffff, #27c4ce);
+    background: -o-linear-gradient(#55ffff, #27c4ce);
+    background: -webkit-linear-gradient(#55ffff, #27c4ce);}
 
 #menubar
 { width: 1200px;
