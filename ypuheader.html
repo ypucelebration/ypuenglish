@@ -1,14 +1,47 @@
-﻿<div id="menubar">
+<style>
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #008cba;
+    background-color: #ffffff;
+    float:right
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #4060a5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #008cba;
+}
+</style>
+<div id="menubar">
     <div id="welcome" align="center" style="padding-top:0px">
         <h1 style="font-size:18px"><a href="#"><img width="450" src="images/ypu_logo.png" alt="" /></a></h1>
-    </div><!--close welcome-->
+    </div>
     <div id="menu_items">
-        <ul id="menu">
-            <li class="current"><a href="index.html">Home<br>首頁</a></li>
-            <li><a href="ourwork.html">Prospective Students<br>未來學生</a></li>
-            <li><a href="testimonials.html">Current Students<br>在校生</a></li>
-            <li><a href="projects.html">Alumni<br>校友</a></li>
-            <li><a href="contact.html">Visitors<br>訪客</a></li>
+        <ul>
+            <li><a class="active" href="#home">Home<br>首頁</a></li>
+            <li><a href="#news">Prospective Students<br>未來學生</a></li>
+            <li><a href="#contact">Current Students<br>在校生</a></li>
+            <li><a href="#about">Alumni<br>校友</a></li>
+            <li><a href="#about">Visitors<br>訪客</a></li>
         </ul>
-    </div><!--close menu-->
-</div><!--close menubar-->	
+    </div>
+</div>
+
